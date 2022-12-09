@@ -1,0 +1,30 @@
+﻿<Window x:Class="CSEInverter.EditTaskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:CSEInverter"
+        mc:Ignorable="d"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        MinHeight="200" MinWidth="300"
+        Height="300"    Width="500"
+        Title="Rediger Opgave" >
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="18" />
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <xctk:PropertyGrid x:Name="TaskPropertyGrid"
+                           Margin="8"
+                           ShowSortOptions="False"
+                           ShowSearchBox="False"/>
+    </Grid>
+</Window>

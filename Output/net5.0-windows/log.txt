@@ -1,0 +1,29 @@
+MainWindow: Starting operation
+DownloadFTPTask: Connecting to the server: 127.0.0.1:22
+DownloadFTPTask: Fingerprint: 'hIz94tCR8s56ofJogCIKepI1MSgQmmdk3lNu5iIHvlE='
+DownloadFTPTask: Key was already accepted
+DownloadFTPTask: Found file: dir1/depth_1.txt, 0
+ExtractTask: Could not extract
+DownloadFTPTask: Found file: dir1/dir2/depth_2.txt, 0
+ExtractTask: Could not extract
+DownloadFTPTask: Found file: dir2/dir3/sample.7z, 1026241
+ExtractTask: Extracting: dir2/dir3/sample.7z
+StreamExtractor: Extracting archive
+StreamExtractor: file-sample_1MB.docx
+StreamExtractor: Extractet entry
+<>c__DisplayClass16_1: Entry: dir2/dir3/sample/file-sample_1MB.docx
+DownloadFTPTask: Found file: dir2_compressed.zip, 1026634
+ExtractTask: Extracting: dir2_compressed.zip
+StreamExtractor: Extracting archive
+StreamExtractor: dir2
+StreamExtractor: dir2\dir3
+StreamExtractor: dir2\dir3\sample.7z
+StreamExtractor: Extractet entry
+<>c__DisplayClass16_1: Entry: dir2_compressed/dir2\dir3\sample.7z
+DownloadFTPTask: Found file: test.txt, 1614528
+ExtractTask: Could not extract
+DownloadFTPTask: Found file: times.txt, 153
+ExtractTask: Could not extract
+DownloadFTPTask: Found file: UTF-8.txt, 94
+ExtractTask: Could not extract
+MainWindow: Operation complete, time Elapsed: 00:00:00.9629239

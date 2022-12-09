@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSEInverter</name>
+    </assembly>
+    <members>
+        <member name="T:CSEInverter.AddTaskWindow">
+            <summary>
+            Interaction logic for Window1.xaml
+            </summary>
+            <summary>
+            AddTaskWindow
+            </summary>
+        </member>
+        <member name="M:CSEInverter.AddTaskWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:CSEInverter.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:CSEInverter.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:CSEInverter.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:CSEInverter.EditTaskWindow">
+            <summary>
+            Interaction logic for EditTaskWindow.xaml
+            </summary>
+            <summary>
+            EditTaskWindow
+            </summary>
+        </member>
+        <member name="M:CSEInverter.EditTaskWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:CSEInverter.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:CSEInverter.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:CSEInverter.ProgressBarWithLabel">
+            <summary>
+            Interaction logic for ProgressBarWithLabel.xaml
+            </summary>
+            <summary>
+            ProgressBarWithLabel
+            </summary>
+        </member>
+        <member name="M:CSEInverter.ProgressBarWithLabel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

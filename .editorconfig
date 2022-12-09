@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CA1065: Do not raise exceptions in unexpected locations
+dotnet_diagnostic.CA1065.severity = warning

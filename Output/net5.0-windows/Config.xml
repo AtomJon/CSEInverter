@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Main">
+  <Tasks>
+    <Task type="CSEInverter.DownloadFTPTask, CSEInverter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <DownloadFTPTask>
+        <Username>anonymous</Username>
+        <Password>anonymous</Password>
+        <ServerHost>127.0.0.1</ServerHost>
+        <ServerPort>22</ServerPort>
+        <Directories_CommaSeparated>/</Directories_CommaSeparated>
+        <RecurseSubdirectories>true</RecurseSubdirectories>
+        <BackupFiles>true</BackupFiles>
+        <UpdateProgress>true</UpdateProgress>
+      </DownloadFTPTask>
+    </Task>
+    <Task type="CSEInverter.ExtractTask, CSEInverter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <ExtractTask>
+        <UpdateProgress>true</UpdateProgress>
+        <RecursionFilters_CommaSepareted>*.7z,*.zip</RecursionFilters_CommaSepareted>
+      </ExtractTask>
+    </Task>
+    <Task type="CSEInverter.SaveToFileTask, CSEInverter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SaveToFileTask>
+        <UpdateProgress>true</UpdateProgress>
+        <StepsOnProgressBar>40</StepsOnProgressBar>
+        <BufferSize>8192</BufferSize>
+        <OutputDirectory>./Out/</OutputDirectory>
+        <TargetEncodingCodePage>1252</TargetEncodingCodePage>
+      </SaveToFileTask>
+    </Task>
+  </Tasks>
+</Config>
